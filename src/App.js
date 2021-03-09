@@ -16,7 +16,7 @@ function App() {
         <CarProvider>
           <Route exact path="/brownie" component={MenuBrownie} />
           <Route exact path="/cake" component={MenuCake} />
-          <Route exact path="cupcake" component={MenuCupCake} />
+          <Route exact path="/cupcake" component={MenuCupCake} />
           <Route exact path="/pie" component={MenuPie} />
           <Route exact path="/order" component={Order} />
         </CarProvider>
