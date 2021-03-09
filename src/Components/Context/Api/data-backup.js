@@ -1,3 +1,32 @@
+import Image from 'react-bootstrap/Image';
+
+import Personaliza from '../../img/icons/pastelIcon.png';
+import IngCake from '../../img/products/IngCake.png';
+import BeerCake from '../../img/products/beerCake.png';
+import FlowerCake from '../../img/products/FlowerCake.jpg';
+import UnicornFondantCake from '../../img/products/UnicornCute.jpg';
+import ChocolateCake from '../../img/products/ChocolateCake.png';
+import BasicCake from '../../img/products/BasicCake.jpg';
+import SuperCake from '../../img/products/SuperCake.jpg';
+import LetterCake from '../../img/products/LetterCake.png';
+import AnimalCake from '../../img/products/pastelAnimales.jpg';
+import BikeCake from '../../img/products/bikeCake.png';
+import HPCake from '../../img/products/HPCake.png';
+import CocaCola from '../../img/products/CocaColaCake.png';
+import Graduation from '../../img/products/graduacionCake.jpg';
+import PlayCake from '../../img/products/Play.png';
+import UnicornCake from '../../img/products/UnicornCake.jpg';
+import SnakeCake from '../../img/products/SnakeCake.png';
+import BearCake from '../../img/products/BearCake.png';
+
+import HearthBrownie from '../../img/products/BrownieHearth.png';
+import SquareBrownie from '../../img/products/BrownieSquare.png';
+
+import FondantCupcake from '../../img/products/CupCakeFondant.png';
+import CremaCupCake from '../../img/products/GlaceadoCupCake.jpg';
+
+import Pie from '../../img/products/Pie.jpg';
+
 const data = {
     products: [
         {
@@ -6,7 +35,7 @@ const data = {
             pricesmall: 0,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/V2IaEsb.png"
+            Image: <Image src={Personaliza} alt='Personaliza tu torta' className='CakeImage'/>
         },
         {
             id: 'Torta2',
@@ -14,7 +43,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/rOp6CSN.png"
+            Image: <Image src={ChocolateCake} alt='Torta de Chocolate' className='CakeImage'/>
         },
         {
             id: 'Torta3',
@@ -22,7 +51,7 @@ const data = {
             pricesmall: 50000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/p13BuRv.jpg"
+            Image: <Image src={FlowerCake} alt='Torta de Flores' className='CakeImage'/>
         },
         {
             id: 'Torta4',
@@ -30,7 +59,7 @@ const data = {
             pricesmall: 60000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/y2Muyyv.jpg"
+            Image: <Image src={UnicornFondantCake} alt='Torta unicornio en fondant' className='CakeImage'/>
         },
         {
             id: 'Torta5',
@@ -38,7 +67,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/uI8pJrg.png"
+            Image: <Image src={BeerCake} alt='Torta jarra de cerveza' className='CakeImage'/>
         },
         {
             id: 'Torta6',
@@ -46,7 +75,7 @@ const data = {
             pricesmall: 50000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/YEhzxik.jpg"
+            Image: <Image src={IngCake} alt='Torta Ingeniero / Arquitecto' className='CakeImage'/>
         },
         {
             id: 'Torta7',
@@ -54,7 +83,7 @@ const data = {
             pricesmall: 35000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/zeMlSbm.jpg"
+            Image: <Image src={BasicCake} alt='Torta básica' className='CakeImage'/>
         },
         {
             id: 'Torta8',
@@ -62,7 +91,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/0Tpt0k4.jpg"
+            Image: <Image src={SuperCake} alt='Torta super heroes' className='CakeImage'/>
         }, 
         {
             id: 'Torta9',
@@ -70,7 +99,7 @@ const data = {
             pricesmall: 40000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/6nfZs6V.png"
+            Image: <Image src={LetterCake} alt='Torta letra o número' className='CakeImage'/>
         }, 
         {
             id: 'Torta10',
@@ -78,7 +107,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/wUBdQXc.png"
+            Image: <Image src={BikeCake} alt='Torta de cicla' className='CakeImage'/>
         },   
         {
             id: 'Torta11',
@@ -86,7 +115,7 @@ const data = {
             pricesmall: 50000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/ZVKATTA.jpg"
+            Image: <Image src={AnimalCake} alt='Torta de animal' className='CakeImage'/>
         },   
         {
             id: 'Torta12',
@@ -94,7 +123,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/FRB1Wcv.jpg"
+            Image: <Image src={CocaCola} alt='Torta Coca Cola' className='CakeImage'/>
         },
         {
             id: 'Torta13',
@@ -102,7 +131,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/0l9540Y.png"
+            Image: <Image src={HPCake} alt='Torta Harry Potter' className='CakeImage'/>
         },
         {
             id: 'Torta14',
@@ -110,7 +139,7 @@ const data = {
             pricesmall: 60000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/od8520H.png"
+            Image: <Image src={PlayCake} alt='Torta control de play' className='CakeImage'/>
         },
         {
             id: 'Torta15',
@@ -118,7 +147,7 @@ const data = {
             pricesmall: 45000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/Ve3jqDG.jpg"
+            Image: <Image src={Graduation} alt='Torta de grado' className='CakeImage'/>
         },
         {
             id: 'Torta16',
@@ -126,7 +155,7 @@ const data = {
             pricesmall: 50000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/axZ1ado.jpg"
+            Image: <Image src={UnicornCake} alt='Torta de unicornio' className='CakeImage'/>
         },
         {
             id: 'Torta17',
@@ -134,7 +163,7 @@ const data = {
             pricesmall: 60000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/STcrczg.png"
+            Image: <Image src={SnakeCake} alt='Torta de serpiente' className='CakeImage'/>
         },
         {
             id: 'Torta18',
@@ -142,7 +171,7 @@ const data = {
             pricesmall: 50000,
             amount: 0,
             category: 'tortasmall',
-            Image: "https://i.imgur.com/R8uizpf.png"
+            Image: <Image src={BearCake} alt='Torta de oso' className='CakeImage'/>
         },
         {
             id: 'Torta19',
@@ -150,7 +179,7 @@ const data = {
             pricesmall: 0,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/V2IaEsb.png"
+            Image: <Image src={Personaliza} alt='Personaliza tu torta' className='CakeImage'/>
         },
         {
             id: 'Torta20',
@@ -158,7 +187,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/rOp6CSN.png"
+            Image: <Image src={ChocolateCake} alt='Torta de Chocolate' className='CakeImage'/>
         },
         {
             id: 'Torta21',
@@ -166,7 +195,7 @@ const data = {
             pricesmall: 70000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/p13BuRv.jpg"
+            Image: <Image src={FlowerCake} alt='Torta de Flores' className='CakeImage'/>
         },
         {
             id: 'Torta22',
@@ -174,7 +203,7 @@ const data = {
             pricesmall: 80000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/y2Muyyv.jpg"
+            Image: <Image src={UnicornFondantCake} alt='Torta unicornio en fondant' className='CakeImage'/>
         },
         {
             id: 'Torta23',
@@ -182,7 +211,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/uI8pJrg.png"
+            Image: <Image src={BeerCake} alt='Torta jarra de cerveza' className='CakeImage'/>
         },
         {
             id: 'Torta24',
@@ -190,7 +219,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/YEhzxik.jpg" 
+            Image: <Image src={IngCake} alt='Torta Ingeniero / Arquitecto' className='CakeImage'/>
         },
         {
             id: 'Torta25',
@@ -198,7 +227,7 @@ const data = {
             pricesmall: 55000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/zeMlSbm.jpg"
+            Image: <Image src={BasicCake} alt='Torta básica' className='CakeImage'/>
         },
         {
             id: 'Torta26',
@@ -206,7 +235,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/0Tpt0k4.jpg"
+            Image: <Image src={SuperCake} alt='Torta super heroes' className='CakeImage'/>
         }, 
         {
             id: 'Torta27',
@@ -214,7 +243,7 @@ const data = {
             pricesmall: 60000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/6nfZs6V.png"
+            Image: <Image src={LetterCake} alt='Torta letra o número' className='CakeImage'/>
         }, 
         {
             id: 'Torta28',
@@ -222,7 +251,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/wUBdQXc.png"
+            Image: <Image src={BikeCake} alt='Torta de cicla' className='CakeImage'/>
         },   
         {
             id: 'Torta29',
@@ -230,7 +259,7 @@ const data = {
             pricesmall: 70000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/ZVKATTA.jpg"
+            Image: <Image src={AnimalCake} alt='Torta de animal' className='CakeImage'/>
         },   
         {
             id: 'Torta30',
@@ -238,7 +267,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/FRB1Wcv.jpg" 
+            Image: <Image src={CocaCola} alt='Torta Coca Cola' className='CakeImage'/>
         },
         {
             id: 'Torta31',
@@ -246,7 +275,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/0l9540Y.png"
+            Image: <Image src={HPCake} alt='Torta Harry Potter' className='CakeImage'/>
         },
         {
             id: 'Torta32',
@@ -254,7 +283,7 @@ const data = {
             pricesmall: 80000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/od8520H.png"
+            Image: <Image src={PlayCake} alt='Torta control de play' className='CakeImage'/>
         },
         {
             id: 'Torta33',
@@ -262,7 +291,7 @@ const data = {
             pricesmall: 65000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/Ve3jqDG.jpg"
+            Image: <Image src={Graduation} alt='Torta de grado' className='CakeImage'/>
         },
         {
             id: 'Torta34',
@@ -270,7 +299,7 @@ const data = {
             pricesmall: 70000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/axZ1ado.jpg"
+            Image: <Image src={UnicornCake} alt='Torta de unicornio' className='CakeImage'/>
         },
         {
             id: 'Torta35',
@@ -278,7 +307,7 @@ const data = {
             pricesmall: 80000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/STcrczg.png"
+            Image: <Image src={SnakeCake} alt='Torta de serpiente' className='CakeImage'/>
         },
         {
             id: 'Torta36',
@@ -286,7 +315,7 @@ const data = {
             pricesmall: 70000,
             amount: 0,
             category: 'TortaMedium',
-            Image: "https://i.imgur.com/R8uizpf.png"
+            Image: <Image src={BearCake} alt='Torta de oso' className='CakeImage'/>
         },
         {
             id: 'Torta37',
@@ -294,7 +323,7 @@ const data = {
             pricesmall: 0,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/V2IaEsb.png"
+            Image: <Image src={Personaliza} alt='Personaliza tu torta' className='CakeImage'/>
         },
         {
             id: 'Torta38',
@@ -302,7 +331,7 @@ const data = {
             pricesmall: 90000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/rOp6CSN.png"
+            Image: <Image src={ChocolateCake} alt='Torta de Chocolate' className='CakeImage'/>
         },
         {
             id: 'Torta39',
@@ -310,7 +339,7 @@ const data = {
             pricesmall: 95000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/p13BuRv.jpg"
+            Image: <Image src={FlowerCake} alt='Torta de Flores' className='CakeImage'/>
         },
         {
             id: 'Torta40',
@@ -318,7 +347,7 @@ const data = {
             pricesmall: 110000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/y2Muyyv.jpg"
+            Image: <Image src={UnicornFondantCake} alt='Torta unicornio en fondant' className='CakeImage'/>
         },
         {
             id: 'Torta41',
@@ -326,7 +355,7 @@ const data = {
             pricesmall: 90000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/uI8pJrg.png"
+            Image: <Image src={BeerCake} alt='Torta jarra de cerveza' className='CakeImage'/>
         },
         {
             id: 'Torta42',
@@ -334,7 +363,7 @@ const data = {
             pricesmall: 95000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/YEhzxik.jpg"
+            Image: <Image src={IngCake} alt='Torta Ingeniero / Arquitecto' className='CakeImage'/>
         },
         {
             id: 'Torta43',
@@ -342,7 +371,7 @@ const data = {
             pricesmall: 80000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/zeMlSbm.jpg"
+            Image: <Image src={BasicCake} alt='Torta básica' className='CakeImage'/>
         },
         {
             id: 'Torta44',
@@ -350,7 +379,7 @@ const data = {
             pricesmall: 90000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/0Tpt0k4.jpg"
+            Image: <Image src={SuperCake} alt='Torta super heroes' className='CakeImage'/>
         }, 
         {
             id: 'Torta45',
@@ -358,7 +387,7 @@ const data = {
             pricesmall: 80000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/6nfZs6V.png"
+            Image: <Image src={LetterCake} alt='Torta letra o número' className='CakeImage'/>
         }, 
         {
             id: 'Torta46',
@@ -366,7 +395,7 @@ const data = {
             pricesmall: 85000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/wUBdQXc.png"
+            Image: <Image src={BikeCake} alt='Torta de cicla' className='CakeImage'/>
         },   
         {
             id: 'Torta47',
@@ -374,7 +403,7 @@ const data = {
             pricesmall: 90000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/ZVKATTA.jpg"
+            Image: <Image src={AnimalCake} alt='Torta de animal' className='CakeImage'/>
         },   
         {
             id: 'Torta48',
@@ -382,7 +411,7 @@ const data = {
             pricesmall: 85000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/FRB1Wcv.jpg"
+            Image: <Image src={CocaCola} alt='Torta Coca Cola' className='CakeImage'/>
         },
         {
             id: 'Torta49',
@@ -390,7 +419,7 @@ const data = {
             pricesmall: 90000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/0l9540Y.png"
+            Image: <Image src={HPCake} alt='Torta Harry Potter' className='CakeImage'/>
         },
         {
             id: 'Torta50',
@@ -398,7 +427,7 @@ const data = {
             pricesmall: 110000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/od8520H.png"
+            Image: <Image src={PlayCake} alt='Torta control de play' className='CakeImage'/>
         },
         {
             id: 'Torta51',
@@ -406,7 +435,7 @@ const data = {
             pricesmall: 85000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/Ve3jqDG.jpg"
+            Image: <Image src={Graduation} alt='Torta de grado' className='CakeImage'/>
         },
         {
             id: 'Torta52',
@@ -414,7 +443,7 @@ const data = {
             pricesmall: 95000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/axZ1ado.jpg"
+            Image: <Image src={UnicornCake} alt='Torta de unicornio' className='CakeImage'/>
         },
         {
             id: 'Torta53',
@@ -422,7 +451,7 @@ const data = {
             pricesmall: 110000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/STcrczg.png"
+            Image: <Image src={SnakeCake} alt='Torta de serpiente' className='CakeImage'/>
         },
         {
             id: 'Torta54',
@@ -430,7 +459,7 @@ const data = {
             pricesmall: 90000,
             amount: 0,
             category: 'TortaBig',
-            Image: "https://i.imgur.com/R8uizpf.png"
+            Image: <Image src={BearCake} alt='Torta de oso' className='CakeImage'/>
         },
         {
             id: 'Brownie1',
@@ -441,7 +470,7 @@ const data = {
             price: 0,
             amount: 0,
             category: 'brownie',
-            Image: "https://i.imgur.com/oD76nGE.png"
+            Image: <Image src={HearthBrownie} alt='Brownie' className='CakeImage'/>
         },
         {
             id: 'Brownie2',
@@ -452,7 +481,7 @@ const data = {
             price: 0,
             amount: 0,
             category: 'brownie',
-            Image: "https://i.imgur.com/m2yX6Oi.png"
+            Image: <Image src={SquareBrownie} alt='Brownie' className='CakeImage'/>
         },
         {
             id: 'CupCake1',
@@ -463,7 +492,7 @@ const data = {
             price: 0,
             amount: 0,
             category: 'cupcake',
-            Image: "https://i.imgur.com/KcxbBx6.jpg"
+            Image: <Image src={FondantCupcake} alt='CupCake Fondant' className='CakeImage'/>
         },
         {
             id: 'CupCake2',
@@ -474,7 +503,7 @@ const data = {
             price: 0,
             amount: 0,
             category: 'cupcake',
-            Image: "https://i.imgur.com/moFMTKF.jpg"
+            Image: <Image src={CremaCupCake} alt='CupCake Crema' className='CakeImage'/>
         },
         {
             id: 'Pie1',
@@ -485,7 +514,7 @@ const data = {
             price: 0,
             amount: 0,
             category: 'pie',
-            Image: "https://i.imgur.com/JXnj5vP.jpg"
+            Image: <Image src={Pie} alt='Pie' className='CakeImage'/>
         }
     ]
 }

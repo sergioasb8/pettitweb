@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image';
 
 function ProductContainer (props) {
 
@@ -13,7 +14,7 @@ function ProductContainer (props) {
                     <h3 className='ProductName'>{product.name}</h3>
                 </div >
                 <div className='ProductImage' >
-                    {product.Image}
+                    <Image src={product.Image} alt='Personaliza tu torta' className='CakeImage'/>
                 </div>
                     
                 <div className='ProductPriceContainer' >

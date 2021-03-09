@@ -16,7 +16,7 @@ function ProductContainer (props) {
                     <h3 className='ProductName'>{product.name}</h3>
                 </div >
                 <div className='ProductImage' >
-                    {product.Image}
+                    <Image src={product.Image} alt='Personaliza tu torta' className='CakeImage'/>
                 </div>                
                 
                 <div className='ProductPriceContainer' >
