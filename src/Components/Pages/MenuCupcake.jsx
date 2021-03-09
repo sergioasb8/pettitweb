@@ -27,12 +27,12 @@ function Menu () {
                 <CircleLogo />
 
                 <div className='CategoryContainer'>
-                    <Link to="/Brownie">
+                    <Link to="/brownie">
                         <div className='LinkCategory'>
                             <CategoryCircle ImgURL={Brownie}/>
                         </div>
                     </Link>
-                    <Link to="/Cake">
+                    <Link to="/cake">
                         <div className='LinkCategory'>
                             <CategoryCircle ImgURL={Cake}/>
                         </div>
@@ -40,7 +40,7 @@ function Menu () {
                     <div className='LinkCategory'>
                         <CategoryCircle ImgURL={CupCake}/>
                     </div>
-                    <Link to="/Pie">
+                    <Link to="/pie">
                         <div className='LinkCategory'>
                             <CategoryCircle ImgURL={Pie}/>
                         </div>
@@ -64,7 +64,7 @@ function Menu () {
                 
                 <Total carItems = {carItems} />
                 <SocialMedia />
-                <Link to="/Order" className='LinkMenu'>
+                <Link to="/order" className='LinkMenu'>
                     <BackButton Text='Ver orden' />
                 </Link>
             </div>

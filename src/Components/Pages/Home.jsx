@@ -18,7 +18,7 @@ function Home () {
                     <Image src={UnicornCake} alt='TortasUnicornio' className='UnicornCake'/>
                 </div>
                 <SocialMedia />
-                <Link to="/Brownie" className='LinkMenu'>
+                <Link to="/brownie" className='LinkMenu'>
                     <BackButton Text='Explorar' />
                 </Link>
             </div>

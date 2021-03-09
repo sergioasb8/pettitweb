@@ -67,7 +67,7 @@ function Order (props) {
 
                 <Total carItems = {carItems} />
                 <SocialMedia />
-                <Link to="/Brownie" className='LinkMenu'>
+                <Link to="/brownie" className='LinkMenu'>
                     <BackButton Text='Regresar' />
                 </Link>
             </div>

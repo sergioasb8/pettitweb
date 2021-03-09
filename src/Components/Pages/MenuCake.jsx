@@ -34,7 +34,7 @@ function Menu () {
                 {/* Showing the categories at the screen */}
 
                 <div className='CategoryContainer'>
-                    <Link to="/Brownie">
+                    <Link to="/brownie">
                         <div className='LinkCategory'>
                             <CategoryCircle ImgURL={Brownie}/>
                         </div>
@@ -42,12 +42,12 @@ function Menu () {
                     <div className='LinkCategory'>
                         <CategoryCircle ImgURL={Cake}/>
                     </div>
-                    <Link to="/CupCake">
+                    <Link to="/cupcake">
                         <div className='LinkCategory'>
                             <CategoryCircle ImgURL={CupCake}/>
                         </div>
                     </Link>
-                    <Link to="/Pie">
+                    <Link to="/pie">
                         <div className='LinkCategory'>
                             <CategoryCircle ImgURL={Pie}/>
                         </div>
@@ -105,7 +105,7 @@ function Menu () {
                 
                 <Total carItems = {carItems} />
                 <SocialMedia />
-                <Link to="/Order" className='LinkMenu'>
+                <Link to="/order" className='LinkMenu'>
                     <BackButton Text='Ver orden' />
                 </Link>
             </div>

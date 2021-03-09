@@ -14,11 +14,11 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <CarProvider>
-          <Route exact path="/Brownie" component={MenuBrownie} />
-          <Route exact path="/Cake" component={MenuCake} />
-          <Route exact path="/CupCake" component={MenuCupCake} />
-          <Route exact path="/Pie" component={MenuPie} />
-          <Route exact path="/Order" component={Order} />
+          <Route exact path="/brownie" component={MenuBrownie} />
+          <Route exact path="/cake" component={MenuCake} />
+          <Route exact path="cupcake" component={MenuCupCake} />
+          <Route exact path="/pie" component={MenuPie} />
+          <Route exact path="/order" component={Order} />
         </CarProvider>
       </Switch>
     </BrowserRouter>
