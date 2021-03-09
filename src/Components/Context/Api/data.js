@@ -1,6 +1,5 @@
 import Image from 'react-bootstrap/Image';
 
-
 import Personaliza from '../../img/icons/pastelIcon.png';
 import IngCake from '../../img/products/IngCake.png';
 import BeerCake from '../../img/products/beerCake.png';

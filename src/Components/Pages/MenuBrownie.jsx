@@ -10,6 +10,7 @@ import Total from '../Pieces/Total';
 import '../StylesCss/Menu.css';
 import { Link } from "react-router-dom";
 import carContext from '../Context/CarContext';
+import Image from 'react-bootstrap/Image';
 
 import Brownie from '../img/icons/brownieIcon.png';
 import Cake from '../img/icons/pastelIcon.png';
