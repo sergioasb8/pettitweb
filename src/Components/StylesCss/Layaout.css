@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.Rectangle {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    height: max-content;
+    background-color: none;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ImageContainer {
+    z-index: 0;
+    max-width: 100vw;
+    height: 200px;
+    top: 0px;
+}
+
+.VectorBg {
+    width: 100%;
+}
+
+.HalfCircle {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    background: #f7af9d;
+    border: 1px solid #f7af9d;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: -25vw;
+    text-align: center;
+}
+
+.logoPettit{
+    height: 70%;
+    margin-top: 10%;
+}
+
+.IconContainer {
+    display: flex;
+    display: row;
+    width: 20vw;
+    height: 8vw;
+    margin-top: 162vw;
+    margin-left: 5%;
+}
+
+.Ref {
+    width: 8vw;
+    height: 8vw;
+    padding-right: 3vw;
+}

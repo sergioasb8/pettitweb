@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.OrderTitleText {
+    position: absolute;
+    width: 96vw;
+    height: 10vw;
+    text-align: center;
+    margin-top: 17vw;
+    font-family: 'Akaya Telivigala', cursive;
+    z-index: 2;
+}
+
+.ItemsOrderContainerTwo {
+    position: absolute;
+    width: 96vw;
+    height: 110vw;
+    margin-left: 2vw;
+    margin-top: 28vw;
+    border-radius: 25px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.TotalListContainer {
+    position: absolute;
+    width: 90vw;
+    height: 16vw;
+    margin-top: 140vw;
+    margin-left: 5vw;
+    border-radius: 25px;
+}
+
+.WhatsappContainer {
+    position: absolute;
+    background-color: white;
+    height: 13vw;
+    width: 40vw;
+    margin-top: 1vw;
+    margin-left: 25vw;
+    border-radius: 30px;
+    border:black solid 1px;
+}
+
+.Whatsapp {
+    position: absolute;
+    height: 11vw;
+    margin-left: 4vw;
+    margin-top: 1vw;
+}
+
+.Enviar {
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: 3vw;
+    font-size: 6vw;
+}
+
+.ShoppingList {
+    position: absolute;
+    width: 98%;
+    height: 23vw;
+    margin-left: -12vw;
+    margin-top: 4vw;
+    font-size: 3vw;
+}
+
+.OrderButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vw;
+    font-size: 5vw;
+}
+
+.buttonOrder {
+    border-radius: 30px;
+    height: 8vw;
+    width: 8vw;
+    border:brown;
+    margin-left: 3vw;
+    font-size: 5vw;
+} 

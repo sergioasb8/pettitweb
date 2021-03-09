@@ -1,0 +1,43 @@
+.CategoryContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 16vw;
+    margin-top: 17vw;
+    z-index: 2;
+}
+
+.LinkCategory {
+    text-decoration: none;
+}
+
+.CategoryCircle {
+    background-color:white;
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+}
+
+.ImageIcon {
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+}
+
+.ListContainer {
+    position: absolute;
+    width: 94vw;
+    height: 105vw;
+    margin-top: 48vw;
+    margin-left: 3vw;
+    border-radius: 30px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

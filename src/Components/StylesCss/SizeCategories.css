@@ -1,0 +1,21 @@
+.CakeCategories {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 14vw;
+    margin-top: 34vw;
+    z-index: 3;
+}
+
+.CakeCategoryTitle {
+    width: 25vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 2vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 4vw;
+}
